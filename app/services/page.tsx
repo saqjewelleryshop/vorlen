@@ -1,0 +1,7 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { ArrowUpRight } from 'lucide-react';
+import JsonLd from '../components/JsonLd';
+import { services, site } from '@/lib/site';
+export const metadata:Metadata={title:'Digital services',description:'Strategy, web design and development, web applications, AI automation, ecommerce, SEO, AEO and GEO from Vorlen.',alternates:{canonical:'/services'}};
+export default function Services(){return <main id="main-content" className="subpage"><JsonLd data={{'@context':'https://schema.org','@type':'CollectionPage',name:'Vorlen digital services',url:`${site.url}/services`,description:'Digital strategy, design, engineering, automation and search services.'}}/><section className="page-hero"><span className="section-num">Services / 01—06</span><h1>Everything<br/><i>connected.</i></h1><p>Strategy, experience, engineering and growth should reinforce each other. We work across the complete system so a strong idea does not get lost between disciplines.</p></section><section className="service-index">{services.map(s=><Link href={`/services/${s.slug}`} className="service-card" key={s.slug}><span>{s.number}</span><h2>{s.name}</h2><p>{s.short}</p><ArrowUpRight/></Link>)}</section><section className="wide-cta"><p>Not sure which service you need?</p><h2>Start with the problem.</h2><Link className="button-dark" href="/contact">Talk to Vorlen <ArrowUpRight size={17}/></Link></section></main>}
