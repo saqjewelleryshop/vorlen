@@ -17,5 +17,6 @@ export const metadata: Metadata = {
   twitter:{card:'summary_large_image',title:'Vorlen — Digital products that move businesses forward',description:site.description},
   robots:{index:true,follow:true,googleBot:{index:true,follow:true,'max-image-preview':'large','max-snippet':-1,'max-video-preview':-1}},
   category:'technology',
+  verification:{google:'gRlHgzyRK8AtKv_uqVwIrcNGbp2vSMqk0uShIerQXu0'},
 };
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body><a className="skip-link" href="#main-content">Skip to content</a><Nav/>{children}<Footer/></body></html>}
