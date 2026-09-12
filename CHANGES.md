@@ -10,7 +10,7 @@
 - Removed unsubstantiated numerical performance claims from the work presentation.
 
 ## Search / SEO / AEO / GEO
-- Corrected canonical domain usage to https://vorlen.co.uk.
+- Corrected canonical domain usage to https://www.vorlen.co.uk.
 - Rebuilt XML sitemap for all public routes.
 - Corrected robots directives and sitemap URL.
 - Added page-specific titles, descriptions, canonicals and Open Graph metadata.
@@ -53,3 +53,11 @@
 - Added live-project link to https://badradventures.co.uk/.
 - Added dedicated Badr Adventures case-study content and live-project CTA.
 - Updated selected-work count to 01—06.
+
+## 2026-09-12 — Search Console / canonical host fix
+- Standardised the canonical production origin on `https://www.vorlen.co.uk`.
+- Updated sitemap URLs to use the canonical `www` host.
+- Removed the unsupported `Host` directive from generated `robots.txt`.
+- Kept the sitemap directive pointed at the canonical `www` sitemap URL.
+- Added a permanent non-www → www redirect in Next.js.
+- Replaced deployment-time sitemap `lastModified` values with stable content dates so every deploy no longer reports the whole site as changed.

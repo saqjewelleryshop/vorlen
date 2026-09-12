@@ -17,7 +17,7 @@ Production-oriented Next.js App Router website for Vorlen.
 - Contact brief that opens the user's email client and does not claim to store or deliver data server-side
 
 ## Important launch checks
-1. Confirm `https://vorlen.co.uk` is the final canonical production domain.
+1. Confirm `https://www.vorlen.co.uk` is the final canonical production domain.
 2. Replace or expand selected work copy with approved, factual project information.
 3. Add verified testimonials/results only where evidence exists.
 4. Add analytics/consent tooling appropriate to your legal and measurement requirements.

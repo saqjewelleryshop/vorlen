@@ -1,7 +1,7 @@
 export const site = {
   name: 'Vorlen',
   domain: 'vorlen.co.uk',
-  url: 'https://vorlen.co.uk',
+  url: 'https://www.vorlen.co.uk',
   email: 'hello@vorlen.co.uk',
   location: 'Manchester, UK',
   description:
