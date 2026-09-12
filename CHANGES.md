@@ -61,3 +61,9 @@
 - Kept the sitemap directive pointed at the canonical `www` sitemap URL.
 - Added a permanent non-www → www redirect in Next.js.
 - Replaced deployment-time sitemap `lastModified` values with stable content dates so every deploy no longer reports the whole site as changed.
+
+## ZoChat positioning update — 12 Sep 2026
+- Repositioned ZoChat from a generic tenant dashboard to its customer-facing product proposition.
+- Proof section now describes ZoChat as 24/7 AI customer service for websites.
+- Updated case-study context, direction and scope to cover branded assistants, grounded answers, leads, tickets, analytics, brand rules and integrations.
+- Kept the existing live project URL unchanged.

@@ -38,9 +38,9 @@ const caseContent: Record<string, [string,string,string]> = {
     'Responsive website, service architecture, local SEO landing pages, FAQ content, tax and accounting guides, conversion journeys and technical search foundations.'
   ],
   'tenant-dashboard': [
-    'A multi-tenant AI support product needed one clear place to configure assistants, manage support activity and keep each tenant separated.',
-    'Make a technically complex SaaS workflow feel obvious: configure the bot, manage conversations and tickets, and control tenant-level support settings without unnecessary friction.',
-    'Multi-tenant dashboard UX, onboarding flows, AI-chat configuration, support-ticket workflows, role-aware management and SaaS interface design.'
+    'Businesses needed a customer-service assistant that could be available around the clock without becoming another disconnected tool or generic chatbot.',
+    'Turn a website into a useful 24/7 support channel: give customers grounded answers, capture enquiries, create human-ready tickets and let each business control how its assistant behaves.',
+    'Multi-tenant SaaS architecture, branded AI assistants, grounded answers, lead capture, support-ticket workflows, conversation management, analytics, brand rules and integrations with existing business systems.'
   ],
   'badr-adventures': [
     'An outdoor adventure brand needed a digital experience that could communicate its distinctive faith-friendly proposition while making trips easy to discover.',
