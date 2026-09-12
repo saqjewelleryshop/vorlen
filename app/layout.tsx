@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import './globals.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -18,4 +19,4 @@ export const metadata: Metadata = {
   robots:{index:true,follow:true,googleBot:{index:true,follow:true,'max-image-preview':'large','max-snippet':-1,'max-video-preview':-1}},
   category:'technology',
 };
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body><a className="skip-link" href="#main-content">Skip to content</a><Nav/>{children}<Footer/></body></html>}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body><a className="skip-link" href="#main-content">Skip to content</a><Nav/>{children}<Footer/><Script async src="https://widget-omega-nine.vercel.app/widget.js" data-chatbot="cb_f81436b6"/></body></html>}
