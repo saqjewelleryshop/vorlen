@@ -40,7 +40,7 @@
 
 ## 2026-09-11 — Live work visibility fix
 - Added an explicit **Live client projects** grid at the top of the homepage Work area.
-- NTM Associates and Tenant Dashboard are now named prominently before the visual case-study cards.
+- NTM Associates and ZoChat are now named prominently before the visual case-study cards.
 - Added direct **Visit live site** links on both homepage project entries.
 - Kept dedicated internal case-study pages and external live-project CTAs.
 - Confirmed there is no `reportAllChanges` or `startTime` code in the project source; that console trace is injected/runtime code rather than application source.
